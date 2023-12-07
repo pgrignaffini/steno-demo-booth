@@ -13,7 +13,7 @@ export default function Home() {
       <main className="h-screen">
         <div className="flex items-center h-2/3 ">
           <video src="/video.mp4" className="h-full w-2/3 bg-white" autoPlay loop muted ></video>
-          <div className="h-full w-1/3 flex flex-col items-center space-y-2 pt-4">
+          <div className="h-full w-1/3 flex flex-col items-center space-y-2 py-4">
             <Stenobot />
             <img src="/qr.png" className=""></img>
           </div>
